@@ -16,20 +16,30 @@
         </div>
         <ul class="nav-list">
             <li><a href="#" class="active">HOME</a></li>
-            <li><a href="#">ACADEMIC</a></li>
+            <li><a  class="academic" href="#">ACADEMIC</a>
+                <div class="dropdown-menu-1">
+                    <a href="#">Rules & Regulation</a>
+                    <a href="#">Academic Results</a>
+                    <a href="#">Holiday List</a>
+                    <a href="#">Class Time Table</a>
+                </div>
+            </li>
+            <!--a dropdown menu for academic-->
+           
             <li><a href="">MANAGEMENT</a></li>
             <li><a href="#">LIBRARY</a></li>
             <li><a href="#">ACHIVEMENTS</a></li>
+            <li><a href="#">ALUMNI'S PORTAL</a></li>
 
         </ul>
         <!--navbarfor mobile -->
         <div class="mobile-nav-btn">
-            <img name="hamB" class="nav-icon" src="./icons/menu.png">
-            <img name="close-nav" class="nav-icon" src="./icons/close.png">
+            <img name="hamB" class="nav-icon" src="./icons/menu.png" id="ham">
+            <img name="close-nav" class="nav-icon" src="./icons/close.png" id="close">
         </div>
     </nav>
     <!--image silder-->
-    <div class="imageContainer">
+    <div class="imageContainer" id="visibility">
         <div class="imageSlider">
             <img src="img/1.jpg">
             <img src="img/2.jpg">

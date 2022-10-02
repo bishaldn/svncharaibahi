@@ -123,6 +123,8 @@ nav ul li a {
     height: 75vh;
     left: 50%;
     position: relative;
+    display: block;
+    z-index:-1;
 }
 .imageSlider{
     width:100%;
@@ -159,6 +161,34 @@ nav ul li a {
 }
 .imageContainer .imageSlider img{
     width:100%;
+}
+.dropdown-menu-1{
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+    top: 14%;
+    background: #f1eff3;
+    height: 200px;
+    font-weight: bolder;
+    display: none;
+    text-align: center;
+    height: 220px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.dropdown-menu-1 a{
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    place-items: center;
+    padding-top:12px;
+}
+.dropdown-menu-1 a:hover{
+    background: #0000FF;
+    color: white;
+}
+
+
+nav ul li:hover .dropdown-menu-1{
+    display: grid;
 }
  /*css for mobile navbar*/
 @media(max-width:980px) {
@@ -217,4 +247,12 @@ nav ul li a {
         width: 100%;
         justify-content: center;
     }
+    .hide{
+        display:none;
+    }
+    .dropdown-menu-1{
+        right:50%;
+        top:14%;
+    }
+
 }
