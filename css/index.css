@@ -16,7 +16,8 @@ body {
     height: 100vh;
     overflow-x: hidden;
 }
- /*styling for a navbar*/
+
+/*styling for a navbar*/
 
 
 nav {
@@ -29,20 +30,22 @@ nav {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
 }
-nav .logoName{
+
+nav .logoName {
     display: flex;
     place-items: center;
 }
-.logo{
-    margin-left:40px;
+
+.logo {
+    margin-left: 40px;
 
 }
-nav .logoName .logo img{
-    width:8vw;
-}
-.name{
 
+nav .logoName .logo img {
+    width: 8vw;
 }
+
+.name {}
 
 nav h4 {
     color: rgb(19, 105, 105);
@@ -115,54 +118,66 @@ nav ul li a:hover {
 nav ul li a {
     color: black;
 }
-.imageContainer{
+
+.imageContainer {
     width: 85%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     top: 38%;
     overflow: hidden;
     height: 75vh;
     left: 50%;
     position: relative;
     display: block;
-    z-index:-1;
+    z-index: -1;
 }
-.imageSlider{
-    width:100%;
+
+.imageSlider {
+    width: 100%;
     display: flex;
     animation: slide 16s infinite;
 
 }
+
 @keyframes slide {
-    0%{
+    0% {
         transform: translateX(0);
     }
-    25%{
-        transform:translateX(0);
+
+    25% {
+        transform: translateX(0);
     }
-    50%{
-        transform:translateX(-100%);
-    }
-    55%{
+
+    50% {
         transform: translateX(-100%);
     }
-    65%{
+
+    55% {
+        transform: translateX(-100%);
+    }
+
+    65% {
         transform: translateX(-200%);
     }
-    70%{
+
+    70% {
         transform: translateX(-200%);
     }
-    85%{
+
+    85% {
         transform: translateX(-300%);
     }
-    100%{
+
+    100% {
         transform: translateX(-300%);
     }
-    
+
 }
-.imageContainer .imageSlider img{
-    width:100%;
+
+.imageContainer .imageSlider img {
+    width: 100%;
 }
-.dropdown-menu-1{
+
+.dropdown-menu-1 {
     position: absolute;
     width: 200px;
     z-index: 1;
@@ -175,7 +190,8 @@ nav ul li a {
     height: 220px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.dropdown-menu-2{
+
+.dropdown-menu-2 {
     position: absolute;
     width: 200px;
     z-index: 1;
@@ -188,91 +204,107 @@ nav ul li a {
     height: 220px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.dropdown-menu-1 a{
+
+.dropdown-menu-1 a {
     text-decoration: none;
     border-bottom: 1px solid gray;
     place-items: center;
-    padding-top:12px;
+    padding-top: 12px;
 }
-.dropdown-menu-1 a:hover{
+
+.dropdown-menu-1 a:hover {
     background: #0000FF;
     color: white;
 }
-.dropdown-menu-2 a{
+
+.dropdown-menu-2 a {
     text-decoration: none;
     border-bottom: 1px solid gray;
     place-items: center;
-    padding-top:12px;
+    padding-top: 12px;
 }
-.dropdown-menu-2 a:hover{
+
+.dropdown-menu-2 a:hover {
     background: #0000FF;
     color: white;
 }
 
 
-nav ul li:hover .dropdown-menu-1{
+nav ul li:hover .dropdown-menu-1 {
     display: grid;
 }
-nav ul .list-2:hover .dropdown-menu-2{
+
+nav ul .list-2:hover .dropdown-menu-2 {
     display: grid;
 }
-.aboutSchool{
+
+.aboutSchool {
     display: flex;
     justify-content: space-around;
     place-items: center;
     margin-top: 60px;
 }
-.quotes img{
-     width:370px;
-}
-.about{
-     width: 500px;
-}
-.about h3{
 
+.quotes img {
+    width: 370px;
 }
-.about .line{
+
+.about {
+    width: 500px;
+}
+
+.about h3 {}
+
+.about .line {
     width: 77px;
     height: 5px;
     background: red;
     margin-bottom: 27px;
 }
-.about p{
+
+.about p {
     text-align: justify;
     letter-spacing: 0px;
     word-spacing: -2px;
     color: #303030;
 }
-.readmore-btn{
-   margin-top:15px;
+
+.readmore-btn {
+    margin-top: 15px;
 }
-.readmore-btn button{
-    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+
+.readmore-btn button {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     background: white;
-    width: 10vw;
+    width: 26%;
     height: 7vh;
     border: none;
-    color:black;
+    color: black;
 }
-.readmore-btn button:hover{
+
+.readmore-btn button:hover {
     background: #303030;
     color: white;
 }
-footer{
-  padding-top: 60px;
-  font-weight: 700;
-  margin-bottom: 50px;
+
+footer {
+    padding-top: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
 }
-footer p{
+
+footer p {
     text-align: center;
     font-size: 13px;
 }
-footer p a{
+
+footer p a {
     color: #181888;
     text-decoration: none;
-    
+
 }
-.line-2{
+
+.line-2 {
     background: #b7b0b0;
     height: 1px;
     width: 80%;
@@ -282,24 +314,27 @@ footer p a{
     margin-right: auto;
     margin-top: 11px;
 }
-.disclaimer{
-   display: flex;
-   justify-content: center;
-   font-size: 13px;
-   width: 80%;
-   margin-left:auto;
-   margin-right: auto;
-   margin-top:20px;
-   gap:90px;
-}
-.disclaimer-1{
-    text-align:justify ;
-}
-.disclaimer-2{
-    text-align:left ;
+
+.disclaimer {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    gap: 90px;
 }
 
- /*css for mobile navbar*/
+.disclaimer-1 {
+    text-align: justify;
+}
+
+.disclaimer-2 {
+    text-align: left;
+}
+
+/*css for mobile navbar*/
 @media(max-width:980px) {
     .mobile-nav-btn {
         display: block;
@@ -352,16 +387,35 @@ footer p a{
     .show .mobile-nav-btn .nav-icon[name="close-nav"] {
         display: block;
     }
-    nav .logoName{
+
+    nav .logoName {
         width: 100%;
         justify-content: center;
     }
-    .hide{
-        display:none;
+
+    .hide {
+        display: none;
     }
-    .dropdown-menu-1{
-        right:50%;
-        top:14%;
+
+    .dropdown-menu-1 {
+        right: 50%;
+        top: 14%;
+    }
+
+    .aboutSchool {
+        flex-direction: column-reverse;
+        gap:10px;
+    }
+
+    .disclaimer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
