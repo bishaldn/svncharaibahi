@@ -286,7 +286,22 @@ nav ul .list-2:hover .dropdown-menu-2 {
     background: #303030;
     color: white;
 }
-
+/* css for location*/
+.location-section{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 60px;
+}
+.location{
+    width: fit-content;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.location-section h3{
+    color: #0000FF;
+    margin-bottom: 30px;
+}
+/*css for footer*/
 footer {
     padding-top: 60px;
     font-weight: 700;
